@@ -3,7 +3,7 @@
 //2) To access the phone's contacts, the app must be added to mapplauncherd privileges file
 //  as user root (via devel-su):
 //  cd /usr/share/mapplauncherd
-//  echo /usr/bin/landed26_QT5,p >> privileges
+//  echo /usr/bin/landed27,p >> privileges
 
 
 //TODOs
@@ -300,7 +300,7 @@ int main(int argc, char *argv[])
     view->engine()->setOfflineStoragePath(storagePath);
     qDebug() << "offlineStoragPath new: " << view->engine()->offlineStoragePath();
 
-    view->setSource(SailfishApp::pathTo("qml/landed26_QT5.qml"));
+    view->setSource(SailfishApp::pathTo("qml/landed27.qml"));
     view->show();
     view->showFullScreen();
     return app->exec();

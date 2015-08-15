@@ -19,7 +19,7 @@ Group:      Qt/Qt
 License:    LICENSE
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  landed26_QT5.yaml
+Source100:  landed27.yaml
 Requires:   nemo-qml-plugin-policy-qt5
 Requires:   qt5-qtdeclarative-import-positioning
 Requires:   qt5-qtdeclarative-import-sensors
@@ -78,7 +78,7 @@ desktop-file-install --delete-original       \
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/86x86/apps/%{name}.png
 /usr/bin
-/usr/share/landed26_QT5
+/usr/share/landed27
 /usr/share/applications
 /usr/share/icons/hicolor/86x86/apps
 # >> files

@@ -12,7 +12,7 @@ JSONStorage::~JSONStorage()
 {
 }
 
-//These 3 files should be stored in the QStandardPaths DocumentsLocation: /home/nemo/Documents/landed26_QT5/
+//These 3 files should be stored in the QStandardPaths DocumentsLocation: /home/nemo/Documents/landed27/
 const QString JSONStorage::MASTERDBNAMETEST = "landeddb.masterdata.test.json";
 const QString JSONStorage::MASTERDBNAMEPROD = "landeddb.masterdata.prod.json";
 const QString JSONStorage::SETTINGSDBNAME = "landeddb.settings.json";

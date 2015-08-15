@@ -145,7 +145,7 @@ AUIPageWithMenu {id: mainPage
         color: LandedTheme.BackgroundColorE
         radius: 10
         Text {
-            text: "Landed!!! v26"
+            text: "Landed!!! v27"
             //color: (theme.inverted) ? "white" : "white"
             color: "white"
             font.pixelSize: LandedTheme.FontSizeLarge

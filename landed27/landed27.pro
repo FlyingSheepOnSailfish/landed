@@ -27,7 +27,7 @@ HEADERS += \
     src/jsonstorage.h \
     src/conversationchannel.h
 
-SOURCES += src/landed26_QT5.cpp \
+SOURCES += src/landed27.cpp \
         src/landedtorch.cpp \
         src/telepathyhelper.cpp \
         src/satinfosource.cpp \
@@ -41,7 +41,7 @@ OTHER_FILES += qml/landed27.qml \
     qml/cover/CoverPage.qml \
     rpm/landed27.spec \
     rpm/landed27.yaml \
-    landed26_QT5.desktop \
+    landed27.desktop \
     qml/gui/MainPage.qml \
     qml/gui/GPSDisplay.qml \
     qml/gui/TemplateButtons.qml \
