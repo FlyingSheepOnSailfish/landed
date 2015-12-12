@@ -6,7 +6,7 @@
 #         - desktop icon filename must be changed
 #         - desktop filename must be changed
 #         - icon definition filename in desktop file must be changed
-TARGET = landed27
+TARGET = landed28
 
 CONFIG += sailfishapp
 
@@ -27,7 +27,7 @@ HEADERS += \
     src/jsonstorage.h \
     src/conversationchannel.h
 
-SOURCES += src/landed27.cpp \
+SOURCES += src/landed28.cpp \
         src/landedtorch.cpp \
         src/telepathyhelper.cpp \
         src/satinfosource.cpp \
@@ -37,11 +37,11 @@ SOURCES += src/landed27.cpp \
 
 # qml.files = qml/gui qml/backend
 
-OTHER_FILES += qml/landed27.qml \
+OTHER_FILES += qml/landed28.qml \
     qml/cover/CoverPage.qml \
-    rpm/landed27.spec \
-    rpm/landed27.yaml \
-    landed27.desktop \
+    rpm/landed28.spec \
+    rpm/landed28.yaml \
+    landed28.desktop \
     qml/gui/MainPage.qml \
     qml/gui/GPSDisplay.qml \
     qml/gui/TemplateButtons.qml \
@@ -88,4 +88,4 @@ OTHER_FILES += qml/landed27.qml \
     qml/gui/PhoneContactsTabContent.qml \
     qml/javascript/jsonSupport.js \
     qml/javascript/settings.js \
-    qml/javascript/openstreetmap.js
+    qml/javascript/intentUrls.js
